@@ -20,12 +20,16 @@ body {
     color: #2b2839;
     border-radius: 10px;
 
+ 
+    /* animation-fill-mode: forwards; */
 }
 
 .avatar{
     box-shadow: 2px 2px 4px rgb(247, 118, 118);
     border-radius: 100%;
     width: 50%;
+    animation-name: reverse;
+    animation-duration: 250ms;
 }
 
 .blue-border{
@@ -34,9 +38,7 @@ body {
 
 img:hover {
     animation-name: hovering;
-    animation-duration: 500ms;
+    animation-duration: 250ms;
     animation-fill-mode: forwards;
 }
 
-
-/* The element to apply the animation to */
